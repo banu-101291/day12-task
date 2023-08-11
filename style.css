@@ -1,0 +1,78 @@
+body{
+    border: 1px solid black;
+}
+
+.checked {  
+    color : rgb(255, 209, 82);  
+    font-size : 20px;  
+}  
+.unchecked {  
+    font-size : 20px;  
+}  
+
+.checkbox-round {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox-round:checked {
+    background-color: gray;
+}
+h1,h3,h6{
+    text-align: center;
+    padding-bottom: 5px;
+}
+.card-body1{
+    width:200px;
+}
+
+
+.button{
+display:flex;
+justify-content: center;
+align-items: center;
+
+}
+.button1{
+    padding-right:20px;
+}
+.box1{
+border-style: solid 1px;
+border-width: 5px;
+
+}
+
+.card{
+   align-items: center;
+   justify-content: center;
+   border: 1px solid black;
+   height: 500px;
+
+}
+.card1{
+    border: 1px solid black;
+    height:500px;
+  padding-left: 10px;
+    padding-top: 60PX;
+
+}
+.card-body{
+    padding: 10px;
+}
+
+.bottom{
+    padding: 10px;
+    margin: 10px;
+}
+.top{
+    margin: 10px;
+    padding: 10px;
+}

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>  
+    <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+
+    <div class="top" style="border:1px solid black">
+      <h5>Name</h5>
+    <div class="row">
+        <div class="col" >
+            
+          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+        </div>
+      </div>
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+         </form>
+         <h5>Your Experience</h5>
+         <div>
+            
+            <span class = "fa fa-star checked"></span> 
+            <span class = "fa fa-star checked"></span>  
+            <span class = "fa fa-star checked"></span>  
+            <span class = "fa fa-star checked"></span>  
+            <span class = "fa fa-star unchecked"></span>  
+             </div> 
+        <h6>Overall,how wold you rate your experience with me</h6> 
+
+        <table class="table">
+
+            <h6 style="padding: 5px 5px 0px 5px;">How satisfied are you with*</h6>
+            <thead  >
+                <th scope="row"></th>
+                <td colspan="2"></td>
+                <td>Very Unsatisfied</td>
+                <td>Unsatisfied</td>
+                <td>Neutral</td>
+                <td>Satisfied</td>
+                <td>Very Satisfied</td>
+              </tr>
+            </thead>
+            <tbody>
+                <tr  class="table-active">
+                    <th scope="row">3</th>
+                    <td colspan="2">Purchase</td>
+                    <td><input type="checkbox" class="checkbox-round" /></td>
+                    <td><input type="checkbox" class="checkbox-round" /></td>
+                    <td><input type="checkbox" class="checkbox-round" /></td>
+                    <td><input type="checkbox" class="checkbox-round" /></td>
+                    <td><input type="checkbox" class="checkbox-round" /></td>
+                  </tr>
+
+                </thead>
+                <tbody>
+              <tr >
+                <th scope="row">3</th>
+                <td colspan="2" >Service</td>
+                <td><input type="checkbox" class="checkbox-round" /></td>
+                    <td><input type="checkbox" class="checkbox-round" /></td>
+                    <td><input type="checkbox" class="checkbox-round" /></td>
+                    <td><input type="checkbox" class="checkbox-round" /></td>
+                    <td><input type="checkbox" class="checkbox-round" /></td>
+              </tr>
+              </tr>
+              <tr class="table-active">
+                <th scope="row">3</th>
+                <td colspan="2" >Overall</td>
+                <td><input type="checkbox" class="checkbox-round" /></td>
+                    <td><input type="checkbox" class="checkbox-round" /></td>
+                    <td><input type="checkbox" class="checkbox-round" /></td>
+                    <td><input type="checkbox" class="checkbox-round" /></td>
+                    <td><input type="checkbox" class="checkbox-round" /></td>
+              </tr>
+              </tr>
+              
+            </tbody>
+          </table>
+
+          
+        <table class="table">
+
+          <h6 style="padding: 5px 5px 0px 5px;">How likely are to*</h6>
+          <thead  >
+              <th scope="row"></th>
+              <td colspan="2"></td>
+              <td>Very Unlikely</td>
+              <td>Unlikely</td>
+              <td>Neutral</td>
+              <td>likely</td>
+              <td>Very likely</td>
+            </tr>
+          </thead>
+          <tbody>
+              <tr  class="table-active">
+                  <th scope="row">3</th>
+                  <td colspan="2">Buy from us again</td>
+                  <td><input type="checkbox" class="checkbox-round" /></td>
+                  <td><input type="checkbox" class="checkbox-round" /></td>
+                  <td><input type="checkbox" class="checkbox-round" /></td>
+                  <td><input type="checkbox" class="checkbox-round" /></td>
+                  <td><input type="checkbox" class="checkbox-round" /></td>
+                </tr>
+
+              </thead>
+              <tbody>
+            <tr >
+              <th scope="row">3</th>
+              <td colspan="2" >Recommend our product to others</td>
+              <td><input type="checkbox" class="checkbox-round" /></td>
+                  <td><input type="checkbox" class="checkbox-round" /></td>
+                  <td><input type="checkbox" class="checkbox-round" /></td>
+                  <td><input type="checkbox" class="checkbox-round" /></td>
+                  <td><input type="checkbox" class="checkbox-round" /></td>
+            </tr>
+            </tr>
+            <tr class="table-active">
+              <th scope="row">3</th>
+              <td colspan="2" >Recommend our company to others</td>
+              <td><input type="checkbox" class="checkbox-round" /></td>
+                  <td><input type="checkbox" class="checkbox-round" /></td>
+                  <td><input type="checkbox" class="checkbox-round" /></td>
+                  <td><input type="checkbox" class="checkbox-round" /></td>
+                  <td><input type="checkbox" class="checkbox-round" /></td>
+            </tr>
+            </tr>
+            
+          </tbody>
+        </table>
+        <div class="container">
+          <h6>Additional comments or suggetions</h6>
+          <form>
+             <textarea style="width: 70vw;" placeholder="Add Your Comment" value=" "></textarea>
+             
+          </form>
+          <div class="btn">
+            <input id="submit" type="submit" value="submit">
+             
+            
+        </div> 
+      </div>
+      </div>
+      <div class="bottom" style="border:1px solid black">
+      <h1>Event Update Page</h1>
+      <div><h3>EVENT1</h3>
+        <h6>Number of seats:23</h6>
+      
+        <div class="row">
+          <div class="col-sm-6 ">
+            <div class="card">
+          
+                <div class="box" style="text-align: center">
+                  <img src="./download.png"/>
+                  
+                </div>
+                
+              
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card1">
+              <div class="card-body">
+                <form>
+                  <div class="row mb-3">
+                    <label for="inputName" class="col-sm-3 col-form-label">Name</label>
+                    <div class="col-sm-7">
+                      <input type="text" class="form-control" id="inputName">
+                    </div>
+                  </div>
+                  
+                  <div class="row mb-3">
+                    <label for="inputEmail3" class="col-sm-3 col-form-label">Email</label>
+                    <div class="col-sm-7">
+                      <input type="email" class="form-control" id="inputEmail3">
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <label for="inputcontact" class="col-sm-3 col-form-label">Phone No.</label>
+                    <div class="col-sm-7">
+                      <input type="contact" class="form-control" id="inputcontact">
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <label for="inputSeat" class="col-sm-3 col-form-label">Numer of seats</label>
+                    <div class="col-sm-7">
+                      <input type="Seatcount" class="form-control" id="inputSeat">
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <label for="inputattendee" class="col-sm-3 col-form-label">Number of attendee</label>
+                    <div class="col-sm-7">
+                      <input type="Attendeecount" class="form-control" id="inputattendee">
+                    </div>
+                  </div>
+                  <div class="button">
+                  <div class="button1">
+                  
+
+                  <button>Submit</button>
+                  
+                </div>
+                <div class="button2">
+                  
+
+                  
+                  <button>Cancel</button>
+                </div>
+              </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+      </div>
+      
+</body>
+</html>
